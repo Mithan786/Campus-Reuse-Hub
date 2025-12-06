@@ -1,55 +1,91 @@
-# Campus Reuse Hub - Project README
+# Campus Reuse Hub - (A Modern Campus Marketplace for Reusing, Selling & Donating Items)
 
 ## Project info
 
-Campus Reuse Hub is a student-focused marketplace for buying, selling, and donating pre-owned items within campus communities.
+Campus Reuse Hub is a modern, responsive, student-focused web app that enables campus communities to buy, sell, and donate pre-owned items.
+It promotes sustainability, reduces waste, and connects students with a simple, fast, and clean marketplace experience.
 
-## How can I edit this code?
+# 🔗 Live Project Link: campus-reuse-hub0327.netlify.app
 
-There are several ways of editing and running the project locally.
+## Key Features
 
-**Use your preferred IDE**
+### User Functions
 
-If you want to work locally using your own IDE, you can clone this repo and push changes.
+User authentication (login/signup)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Browse items across the marketplace
 
-Follow these steps:
+Category-based sorting & filtering
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+View detailed item pages
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Contact seller directly via email (Gmail)
 
-# Step 3: Install the necessary dependencies.
-npm install
+Dashboard for managing user listings
 
-# Step 4: Start the development server with auto-reloading.
-npm run dev
-```
+Add/Edit/Delete items
 
-## What technologies are used for this project?
+Upload multiple images
 
-This project is built with:
+Mark items as Sold / Reserved / Available
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Item Attributes
 
-## How can I deploy this project?
+Title, description, category
 
-You can deploy this project to any static hosting or modern frontend host that supports Vite apps (Netlify, Vercel, Cloudflare Pages, etc.). Build the app with:
+Price (₹), or free donation
 
-```sh
-npm run build
-```
+Multiple images
 
-Then follow your hosting provider's instructions to upload the build output.
+Seller profile info
 
-## Custom domain and hosting
+Timestamps (date posted)
 
-Follow your chosen hosting provider's documentation for connecting a custom domain.
+## Tech Stack
+### Frontend
+⚛️ React (with Hooks)
+
+💙 TypeScript
+
+⚡ Vite
+
+🎨 Tailwind CSS
+
+🧩 shadcn/ui Components
+
+🔗 React Router
+
+🔔 Sonner (Toast Notifications)
+
+🖼️ Lucide Icons
+
+### Backend / Services
+🟩 Supabase (Auth + Database + Storage)
+
+🗄️ PostgreSQL
+
+☁️ Supabase Storage Buckets for Images
+
+### Tools
+Bun / npm
+
+ESLint
+
+PostCSS
+
+## Future Enhancements
+
+ In-app real-time chat
+
+ Wishlist / Favorites
+
+ User ratings & reviews
+
+ Dark mode
+
+ Push notifications
+
+ Marketplace search bar
+
+ Mobile app version (React Native)
+
