@@ -5,7 +5,8 @@
 Campus Reuse Hub is a modern, responsive, student-focused web app that enables campus communities to buy, sell, and donate pre-owned items.
 It promotes sustainability, reduces waste, and connects students with a simple, fast, and clean marketplace experience.
 
-# 🔗 Live Project Link: campus-reuse-hub0327.netlify.app
+## 🔗 Live Project Link:
+https://campus-reuse-hub0327.netlify.app/
 
 ## Key Features
 
